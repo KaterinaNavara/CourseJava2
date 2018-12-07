@@ -1,4 +1,4 @@
-package homework1.menus;
+package homework1.cvehicles_task.menus;
 
 import java.util.Scanner;
 
@@ -35,7 +35,8 @@ public abstract class Menu {
             printHeader();
             printContent();
             printFooter();
-            processInput(readInput());
+            String input = readInput();
+            processInput(input);
         } while (!stopRequested);
     }
 

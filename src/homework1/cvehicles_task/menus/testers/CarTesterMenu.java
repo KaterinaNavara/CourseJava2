@@ -1,6 +1,6 @@
-package homework1.menus.testers;
+package homework1.cvehicles_task.menus.testers;
 
-import homework1.models.CCar;
+import homework1.cvehicles_task.models.CCar;
 
 public class CarTesterMenu extends VehicleTesterMenu {
 

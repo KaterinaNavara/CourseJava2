@@ -1,4 +1,4 @@
-package homework1.models;
+package homework1.cvehicles_task.models;
 
 public abstract class CVehicle {
     private long price;
@@ -65,7 +65,7 @@ public abstract class CVehicle {
 
     @Override
     public String toString() {
-        return "homework1.models.CVehicle{" +
+        return "homework1.cvehicles_task.models.CVehicle{" +
                 "price=" + price +
                 ", speed=" + speed +
                 ", createYear=" + createYear +

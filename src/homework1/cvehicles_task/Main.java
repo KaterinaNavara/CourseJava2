@@ -1,6 +1,6 @@
-package homework1;
+package homework1.cvehicles_task;
 
-import homework1.menus.MainMenu;
+import homework1.cvehicles_task.menus.MainMenu;
 
 public class Main {
 

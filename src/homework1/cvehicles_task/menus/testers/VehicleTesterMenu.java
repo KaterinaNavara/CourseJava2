@@ -1,7 +1,7 @@
-package homework1.menus.testers;
+package homework1.cvehicles_task.menus.testers;
 
-import homework1.menus.ChildMenu;
-import homework1.models.CVehicle;
+import homework1.cvehicles_task.menus.ChildMenu;
+import homework1.cvehicles_task.models.CVehicle;
 
 public abstract class VehicleTesterMenu extends ChildMenu {
 

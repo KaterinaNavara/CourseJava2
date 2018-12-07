@@ -1,4 +1,4 @@
-package homework1.models;
+package homework1.cvehicles_task.models;
 
 public class CCar extends CVehicle {
     public CCar(long price, int speed, int createYear) {
@@ -11,6 +11,6 @@ public class CCar extends CVehicle {
 
     @Override
     public String toString() {
-        return "homework1.models.CCar{} " + super.toString();
+        return "homework1.cvehicles_task.models.CCar{} " + super.toString();
     }
 }

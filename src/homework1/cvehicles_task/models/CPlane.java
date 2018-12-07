@@ -1,4 +1,4 @@
-package homework1.models;
+package homework1.cvehicles_task.models;
 
 public class CPlane extends CVehicle {
     private int height;
@@ -34,7 +34,7 @@ public class CPlane extends CVehicle {
 
     @Override
     public String toString() {
-        return "homework1.models.CPlane{" +
+        return "homework1.cvehicles_task.models.CPlane{" +
                 "height=" + height +
                 ", amountPassenger=" + amountPassenger +
                 "} " + super.toString();

@@ -1,8 +1,8 @@
-package homework1.menus.choosers;
+package homework1.cvehicles_task.menus.choosers;
 
-import homework1.menus.ChildMenu;
-import homework1.menus.testers.PlaneTesterMenu;
-import homework1.models.CPlane;
+import homework1.cvehicles_task.menus.ChildMenu;
+import homework1.cvehicles_task.menus.testers.PlaneTesterMenu;
+import homework1.cvehicles_task.models.CPlane;
 
 public class ChoosePlaneMenu extends ChildMenu {
 

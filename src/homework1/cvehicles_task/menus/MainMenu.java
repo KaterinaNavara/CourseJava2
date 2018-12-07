@@ -1,9 +1,9 @@
-package homework1.menus;
+package homework1.cvehicles_task.menus;
 
-import homework1.VehiclesTestStore;
-import homework1.menus.choosers.ChooseCarMenu;
-import homework1.menus.choosers.ChoosePlaneMenu;
-import homework1.menus.choosers.ChooseShipMenu;
+import homework1.cvehicles_task.VehiclesTestStore;
+import homework1.cvehicles_task.menus.choosers.ChooseCarMenu;
+import homework1.cvehicles_task.menus.choosers.ChoosePlaneMenu;
+import homework1.cvehicles_task.menus.choosers.ChooseShipMenu;
 
 public class MainMenu extends Menu {
 

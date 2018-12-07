@@ -1,8 +1,8 @@
-package homework1.menus.choosers;
+package homework1.cvehicles_task.menus.choosers;
 
-import homework1.menus.ChildMenu;
-import homework1.menus.testers.CarTesterMenu;
-import homework1.models.CCar;
+import homework1.cvehicles_task.menus.ChildMenu;
+import homework1.cvehicles_task.menus.testers.CarTesterMenu;
+import homework1.cvehicles_task.models.CCar;
 
 public class ChooseCarMenu extends ChildMenu {
 

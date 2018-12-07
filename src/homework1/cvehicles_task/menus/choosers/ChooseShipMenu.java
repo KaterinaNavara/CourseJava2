@@ -1,8 +1,8 @@
-package homework1.menus.choosers;
+package homework1.cvehicles_task.menus.choosers;
 
-import homework1.menus.ChildMenu;
-import homework1.menus.testers.ShipTesterMenu;
-import homework1.models.CShip;
+import homework1.cvehicles_task.menus.ChildMenu;
+import homework1.cvehicles_task.menus.testers.ShipTesterMenu;
+import homework1.cvehicles_task.models.CShip;
 
 public class ChooseShipMenu extends ChildMenu {
 

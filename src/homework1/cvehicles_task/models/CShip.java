@@ -1,4 +1,4 @@
-package homework1.models;
+package homework1.cvehicles_task.models;
 
 public class CShip extends CVehicle {
     private int amountPassenger;
@@ -28,7 +28,7 @@ public class CShip extends CVehicle {
 
     @Override
     public String toString() {
-        return "homework1.models.CShip{" +
+        return "homework1.cvehicles_task.models.CShip{" +
                 "amountPassenger=" + amountPassenger +
                 ", homePortCode=" + homePortCode +
                 "} " + super.toString();

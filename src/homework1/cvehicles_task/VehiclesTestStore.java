@@ -1,8 +1,8 @@
-package homework1;
+package homework1.cvehicles_task;
 
-import homework1.models.CCar;
-import homework1.models.CPlane;
-import homework1.models.CShip;
+import homework1.cvehicles_task.models.CCar;
+import homework1.cvehicles_task.models.CPlane;
+import homework1.cvehicles_task.models.CShip;
 
 public class VehiclesTestStore {
 

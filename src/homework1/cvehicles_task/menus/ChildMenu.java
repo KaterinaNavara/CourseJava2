@@ -1,4 +1,4 @@
-package homework1.menus;
+package homework1.cvehicles_task.menus;
 
 public abstract class ChildMenu extends Menu {
 
