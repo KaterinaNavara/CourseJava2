@@ -1,6 +1,6 @@
-package homework1.figures_task;
+package homework1.figures_task.figures.Base;
 
-public class ColorPoint extends Point{
+public class ColorPoint extends Point {
     private int color;
 
 

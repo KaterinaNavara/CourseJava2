@@ -1,7 +1,10 @@
 package homework1.figures_task;
 
+import homework1.figures_task.figures.*;
+import homework1.figures_task.figures.Base.*;
+
 public class Program {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Point p1 = new Point(1,1);
         Point p2 = new Point(2,3);
         System.out.println(p1);
@@ -33,5 +36,33 @@ public class Program {
         }
         ColorTriangle tr1 = new ColorTriangle(p1, p2, new Point(4,7), 4445);
         System.out.println(tr1);
+        PolyPointsDynamic poly = new PolyPointsDynamic();
+//        try {
+//            poly.add(new Point(2, 1));
+//            poly.add(new Point(6, 3));
+//            poly.add(new Point(8, 5));
+//            poly.add(new Point(9, 7));
+//            poly.add(new Point(3, 3));
+//            poly.add(new Point(4,2));
+//        } catch (PolyPointsException e){
+//            e.printStackTrace();
+//            System.err.println("next point is ");
+//        }
+//        catch (Exception e) {
+//            System.err.println("all is bad");
+//        }
+
+//        public static void
+        poly.add(new Point(2, 1));
+        poly.add(new Point(6, 3));
+        poly.add(new Point(8, 5));
+        poly.add(new Point(9, 7));
+        poly.add(new Point(3, 3));
+        poly.add(new Point(4,2));
+        poly.add(new Point(4,25));
+
+
+        poly.print();
+
     }
 }

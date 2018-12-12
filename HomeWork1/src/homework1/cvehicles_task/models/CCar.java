@@ -11,6 +11,6 @@ public class CCar extends CVehicle {
 
     @Override
     public String toString() {
-        return "homework1.cvehicles_task.models.CCar{} " + super.toString();
+        return "CCar{} " + super.toString();
     }
 }

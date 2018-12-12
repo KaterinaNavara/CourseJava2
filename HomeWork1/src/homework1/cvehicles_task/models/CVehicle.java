@@ -65,7 +65,7 @@ public abstract class CVehicle {
 
     @Override
     public String toString() {
-        return "homework1.cvehicles_task.models.CVehicle{" +
+        return "CVehicle{" +
                 "price=" + price +
                 ", speed=" + speed +
                 ", createYear=" + createYear +

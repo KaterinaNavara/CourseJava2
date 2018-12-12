@@ -34,7 +34,7 @@ public class CPlane extends CVehicle {
 
     @Override
     public String toString() {
-        return "homework1.cvehicles_task.models.CPlane{" +
+        return "CPlane{" +
                 "height=" + height +
                 ", amountPassenger=" + amountPassenger +
                 "} " + super.toString();

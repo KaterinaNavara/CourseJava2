@@ -1,4 +1,4 @@
-package homework1.figures_task;
+package homework1.figures_task.figures.Base;
 
 public class ColorLine extends Line {
     private int color;

@@ -1,4 +1,6 @@
-package homework1.figures_task;
+package homework1.figures_task.figures.Base;
+
+import homework1.figures_task.figures.Figure;
 
 public class ColorPointAgr extends Figure {
     private Point point;

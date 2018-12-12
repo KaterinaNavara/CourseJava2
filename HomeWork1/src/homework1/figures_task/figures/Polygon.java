@@ -1,8 +1,11 @@
-package homework1.figures_task;
+package homework1.figures_task.figures;
+
+import homework1.figures_task.figures.Base.Line;
+import homework1.figures_task.figures.Base.Point;
 
 import java.util.Arrays;
 
-public class Polygon {
+public class Polygon extends Figure {
 
     private Point[] points;
     private Line[] lines;
