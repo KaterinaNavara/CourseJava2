@@ -1,6 +1,8 @@
 package homework1.figures_task.figures.Base;
 
-public class ColorPoint extends Point {
+import homework1.figures_task.figures.ColorAble;
+
+public class ColorPoint extends Point implements ColorAble {
     private int color;
 
 

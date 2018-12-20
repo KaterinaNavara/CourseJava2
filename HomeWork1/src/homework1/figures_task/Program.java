@@ -3,6 +3,13 @@ package homework1.figures_task;
 import homework1.figures_task.figures.*;
 import homework1.figures_task.figures.Base.*;
 
+class Flower implements ColorAble {
+    @Override
+    public int getColor() {
+        return 777;
+    }
+}
+
 public class Program {
     public static void main(String[] args){
         Point p1 = new Point(1,1);
@@ -31,9 +38,33 @@ public class Program {
         masObj[2] = cpa1;
         masObj[3] = l1;
         masObj[4] = new Point();
+        Point [] masPont = new Point[4];
+        int ipoint = 0;
+        ColorAble [] masColor = new ColorAble[3];
+        int iColor = 0;
+        masColor[iColor++] = new Flower();
+        masColor[iColor++] = () -> 42;
         for (int i = 0; i<masObj.length; i++) {
-            System.out.println(masObj[i]);
+            if(masPont[i] instanceof ColorAble){
+                masColor[iColor] = (ColorAble) masObj[i];
+                iColor++;
+            }
+            if(masObj[i] instanceof Point) {
+                Point tp = ((Point) masObj[i]);
+                masPont[ipoint] = tp;
+                ipoint++;
+                System.out.println(tp.getX());
+            }
         }
+        System.out.println("***************Color");
+        for (int i = 0; i < masColor.length; i++) {
+            System.out.println(masColor[i]);
+
+        }
+
+
+
+
         ColorTriangle tr1 = new ColorTriangle(p1, p2, new Point(4,7), 4445);
         System.out.println(tr1);
         PolyPointsDynamic poly = new PolyPointsDynamic();

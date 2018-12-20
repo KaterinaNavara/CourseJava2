@@ -1,6 +1,8 @@
 package homework1.figures_task.figures.Base;
 
-public class ColorLine extends Line {
+import homework1.figures_task.figures.ColorAble;
+
+public class ColorLine extends Line implements ColorAble {
     private int color;
 
     public ColorLine(Point begin, Point end, int color) {

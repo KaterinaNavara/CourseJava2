@@ -1,4 +1,4 @@
-package classwork2;
+package classwork2.model;
 
 public class Car {
     private String mark;

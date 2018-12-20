@@ -1,6 +1,8 @@
 package homework1.figures_task.figures.Base;
 
-public class  ColorTriangle extends Triangle {
+import homework1.figures_task.figures.ColorAble;
+
+public class  ColorTriangle extends Triangle implements ColorAble {
     private int color;
 
     public ColorTriangle(Point apexA, Point apexB, Point apexC, int color) {

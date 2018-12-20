@@ -1,4 +1,6 @@
-package classwork2;
+package classwork2.controler;
+import classwork2.model.Car;
+
 import java.util.Arrays;
 import java.util.Calendar;
 
@@ -20,10 +22,14 @@ public class CarList {
 
     }
 
-    public Car ger(int i) {
+    public Car get(int i) {
         return cars[i];
     }
 
+    public void set(int i, Car j) {
+        cars[i] = j;
+
+    }
     public int size() {
         return count + 1;
     }
